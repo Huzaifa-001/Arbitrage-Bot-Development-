@@ -1,4 +1,3 @@
-Arbitrage Bot Development 
 📖 Overview 
 Arbitrage Bot Development is a Python-based automation system designed to identify and execute cryptocurrency arbitrage opportunities across multiple exchanges. 
 The bot continuously monitors price differences for specific assets and performs profitable buy-sell trades in real time.
@@ -87,3 +86,4 @@ Full Stack & Blockchain Developer
 This project is for educational and research purposes only.
 Cryptocurrency trading involves significant financial risk.
 Use this bot responsibly and at your own discretion.
+
