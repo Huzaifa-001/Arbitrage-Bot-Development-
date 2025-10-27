@@ -1,9 +1,10 @@
-Arbitrage Bot Development
-📖 Overview
-Arbitrage Bot Development is a Python-based automation system designed to identify and execute cryptocurrency arbitrage opportunities across multiple exchanges. The bot continuously monitors price differences for specific assets and performs profitable buy-sell trades in real time.
+Arbitrage Bot Development 
+📖 Overview 
+Arbitrage Bot Development is a Python-based automation system designed to identify and execute cryptocurrency arbitrage opportunities across multiple exchanges. 
+The bot continuously monitors price differences for specific assets and performs profitable buy-sell trades in real time.
 This project aims to automate crypto trading, reduce manual intervention, and maximize profit margins using real-time data analysis and efficient transaction handling.
 
-⚡ Features
+⚡ Features: 
 🔍 Real-time price tracking from multiple exchanges (Binance, Coinbase, KuCoin, etc.)
 📊 Spread calculation and automatic arbitrage opportunity detection
 🤖 Auto-trading execution with configurable profit margins
@@ -12,7 +13,7 @@ This project aims to automate crypto trading, reduce manual intervention, and ma
 🔐 Secure API key management
 🧠 Scalable modular architecture (easy to extend to new exchanges)
 
-🧰 Tech Stack
+🧰 Tech Stack: 
 Category	Technology
 Language	Python 3.x
 Libraries	ccxt, pandas, requests, asyncio
@@ -20,7 +21,7 @@ Database	SQLite / PostgreSQL (optional)
 Automation	Async tasks + custom trading logic
 Version Control	Git + GitHub
 
-🚀 Getting Started
+🚀 Getting Started: 
 1️⃣ Clone the Repository
 git clone https://github.com/Huzaifa-001/Arbitrage-Bot-Development-.git
 cd Arbitrage-Bot-Development-
@@ -39,13 +40,13 @@ PROFIT_THRESHOLD=0.5
 4️⃣ Run the Bot
 python main.py
 
-📈 Example Output
+📈 Example Output: 
 [INFO] Checking price differences...
 [FOUND] Arbitrage opportunity detected: BTC/USDT
 Buy on Binance: $26,120 | Sell on Coinbase: $26,320 | Profit: +0.76%
 [EXECUTED] Trade executed successfully.
 
-🧩 Project Structure
+🧩 Project Structure: 
 Arbitrage-Bot-Development/
 │
 ├── main.py                 # Entry point
@@ -62,7 +63,7 @@ Arbitrage-Bot-Development/
 ├── requirements.txt
 └── README.md
 
-🧠 How It Works
+🧠 How It Works: 
 The bot connects to multiple crypto exchanges using the CCXT library.
 It fetches current market prices of selected trading pairs.
 It calculates the spread between exchanges.
@@ -71,18 +72,18 @@ Buys from the cheaper exchange.
 Sells at the higher-priced one.
 Logs and reports the trade outcome.
 
-🧪 Future Enhancements
+🧪 Future Enhancements: 
 ✅ Add support for futures and perpetual contracts
 ✅ Integrate Telegram/Discord alerts
 ✅ Implement AI-based profit prediction
 ✅ Add dashboard for monitoring trades in real time
 
-🧑‍💻 Author
+🧑‍💻 Author: 
 Huzaifa Farooqui
 Full Stack & Blockchain Developer
 🌐 GitHub Profile
 
-⚠️ Disclaimer
+⚠️ Disclaimer: 
 This project is for educational and research purposes only.
 Cryptocurrency trading involves significant financial risk.
 Use this bot responsibly and at your own discretion.
